@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C04CEC412572E5710034BF6F"
-               BuildableName = "ok_ios_sdk.framework"
-               BlueprintName = "ok-ios-sdk"
+               BuildableName = "OKSDK.framework"
+               BlueprintName = "OKSDK"
                ReferencedContainer = "container:ok-ios-sdk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C04CEC412572E5710034BF6F"
-            BuildableName = "ok_ios_sdk.framework"
-            BlueprintName = "ok-ios-sdk"
+            BuildableName = "OKSDK.framework"
+            BlueprintName = "OKSDK"
             ReferencedContainer = "container:ok-ios-sdk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

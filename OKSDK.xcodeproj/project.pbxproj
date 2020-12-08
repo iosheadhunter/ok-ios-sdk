@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C04CEC422572E5710034BF6F /* ok_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ok_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04CEC422572E5710034BF6F /* OKSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04CEC462572E5710034BF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0CB4B012572E62700D6FC4B /* OKSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKSDK.h; sourceTree = "<group>"; };
 		C0CB4B022572E62700D6FC4B /* OKSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKSDK.m; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		C04CEC432572E5710034BF6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C04CEC422572E5710034BF6F /* ok_ios_sdk.framework */,
+				C04CEC422572E5710034BF6F /* OKSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C04CEC412572E5710034BF6F /* ok-ios-sdk */ = {
+		C04CEC412572E5710034BF6F /* OKSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C04CEC4A2572E5710034BF6F /* Build configuration list for PBXNativeTarget "ok-ios-sdk" */;
+			buildConfigurationList = C04CEC4A2572E5710034BF6F /* Build configuration list for PBXNativeTarget "OKSDK" */;
 			buildPhases = (
 				C04CEC3D2572E5710034BF6F /* Headers */,
 				C04CEC3E2572E5710034BF6F /* Sources */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "ok-ios-sdk";
+			name = OKSDK;
 			productName = "ok-ios-sdk";
-			productReference = C04CEC422572E5710034BF6F /* ok_ios_sdk.framework */;
+			productReference = C04CEC422572E5710034BF6F /* OKSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C04CEC412572E5710034BF6F /* ok-ios-sdk */,
+				C04CEC412572E5710034BF6F /* OKSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 2.0.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ok.ios-sdk";
+				PRODUCT_BUNDLE_IDENTIFIER = "ok.ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +299,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 2.0.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ok.ios-sdk";
+				PRODUCT_BUNDLE_IDENTIFIER = "ok.ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C04CEC4A2572E5710034BF6F /* Build configuration list for PBXNativeTarget "ok-ios-sdk" */ = {
+		C04CEC4A2572E5710034BF6F /* Build configuration list for PBXNativeTarget "OKSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C04CEC4B2572E5710034BF6F /* Debug */,
